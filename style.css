@@ -4,10 +4,14 @@
 
 
 body {
-  margin: 0;
-  background: #ECDBB6;
-  color: #892E19;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-image: url('https://file.garden/ajhGeiabWWwneE3A/download%20(2).gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;           
+  font-family: Verdana;
+  min-height: 100vh;     
 }
 
 
