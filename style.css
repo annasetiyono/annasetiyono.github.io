@@ -5,8 +5,8 @@
 
 body {
   margin: 0;
-  background: #ECDBB6;
-  color: #892E19;
+  background: rgb(14, 84, 0);
+  color: #222;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -48,7 +48,7 @@ h2 {
   font-weight: 900;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  color: #892E19;
+  color: rgb(132, 125, 3);
 }
 
 
@@ -109,8 +109,8 @@ nav {
   align-items: center;
   margin-bottom: 48px;
   padding: 16px 24px;
-  background: #fff;
-  border: 1px solid #e0e0e0;
+  background: #ff0000;
+  border: 1px solid #ff0000;
   border-radius: 12px;
 }
 
@@ -135,7 +135,7 @@ nav h1 {
 
 
 .nav-li a {
-  color: #666;
+  color: #ff0000;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
@@ -151,3 +151,4 @@ nav h1 {
   background: #000;
   color: #fff;
 }
+
