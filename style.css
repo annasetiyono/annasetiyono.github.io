@@ -5,8 +5,8 @@
 
 body {
   margin: 0;
-  background: rgb(14, 84, 0);
-  color: #222;
+  background: #ECDBB6;
+  color: #892E19;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -45,16 +45,16 @@ h2 {
   margin: 0;
   font-size: clamp(4rem, 10vw, 7rem);
   line-height: 0.9;
-  font-weight: 900;
+  font-weight: 800;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  color: rgb(132, 125, 3);
+  color: #892E19;
 }
 
 
 .content > p {
   margin: 0;
-  color: #ff0000;
+  color: #892E19;
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -63,20 +63,20 @@ h2 {
 
 
 #interests h3 {
-  color: #e94560;
+  color: #892E19;
 }
 
 
 #interests li {
-  background: #ffe8ec;
-  border-color: #e94560;
-  color: #e94560;
+  background: #892E19;
+  border-color: #ECDBB6;
+  color: #ECDBB6;
 }
 
 
 #interests li:hover {
-  background: #e94560;
-  color: #fff;
+  background: #ECDBB6;
+  color: #892E19;
 }
 
 
@@ -109,8 +109,8 @@ nav {
   align-items: center;
   margin-bottom: 48px;
   padding: 16px 24px;
-  background: #ff0000;
-  border: 1px solid #ff0000;
+  background: #892E19;
+  border: 1px solid #ECDBB6;
   border-radius: 12px;
 }
 
@@ -121,7 +121,7 @@ nav h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #000;
+  color: #ECDBB6;
 }
 
 
@@ -135,7 +135,7 @@ nav h1 {
 
 
 .nav-li a {
-  color: #ff0000;
+  color: #ECDBB6;
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 500;
@@ -148,7 +148,6 @@ nav h1 {
 
 
 .nav-li a:hover {
-  background: #000;
-  color: #fff;
+  background: #ECDBB6;
+  color: #892E19;
 }
-
