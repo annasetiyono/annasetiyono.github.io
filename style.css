@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  background: #ECDBB6;
+  background: linear-gradient(180deg, #F6EBD6, #D3AF88);
   color: #892E19;
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
@@ -48,7 +48,7 @@ h2 {
   font-weight: 800;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  color: #892E19;
+  color: #7c5a4f;
 }
 
 
@@ -68,9 +68,16 @@ h2 {
 
 
 #interests li {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 16px 24px;
+  text-align: left;
   background: #892E19;
-  border-color: #ECDBB6;
+  border: 1px solid #D3AF88;
+  border-color: #D3AF88;
   color: #ECDBB6;
+  box-shadow: -5px 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 
@@ -110,8 +117,9 @@ nav {
   margin-bottom: 48px;
   padding: 16px 24px;
   background: #892E19;
-  border: 1px solid #ECDBB6;
-  border-radius: 12px;
+  border: 1px solid #D3AF88;
+  border-radius: 15px;
+  border-width: 5px;
 }
 
 
@@ -140,7 +148,8 @@ nav h1 {
   font-size: 0.85rem;
   font-weight: 500;
   padding: 6px 14px;
-  border-radius: 8px;
+  border-radius: 15px;
+  border-width: 15px;
   transition:
     background 0.25s ease,
     color 0.25s ease;
