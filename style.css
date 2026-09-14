@@ -148,11 +148,34 @@ nav h1 {
 
 
 .nav-li a:hover {
-  background: #ECDBB6;
+  background:#ECDBB6;
   color: #892E19;
 }
 
 /* Portfolio styles */
+#portfolio .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+#portfolio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#portfolio ul {
+  width: 100%;
+  max-width: 600px;
+  padding: 0;
+  list-style: none;
+}
+
 .content h1 {
   color: #892E19;
 }
@@ -168,6 +191,9 @@ nav h1 {
 }
 
 #portfolio li {
+  width:500px;
+  max-width: 90%;
+  box-sizing: border-box;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -177,11 +203,11 @@ nav h1 {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: #892E19;
+  color: #ECDBB6;
   padding: 16px 20px;
   font-size: 1.1rem;
   font-weight: 500;
-  background: #ECDBB6;
+  background: #892E19;
   border: 1px solid #892E19;
   border-radius: 12px;
   transition: background 0.25s ease, color 0.25s ease, color 0.25s ease, transform 0.25s ease;
